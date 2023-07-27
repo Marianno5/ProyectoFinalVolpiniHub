@@ -1,0 +1,25 @@
+.formu{
+    width: 800px;
+    margin: 50px;
+    border-radius: 5px;
+    color: #050505;
+    padding: 30px;
+    background-color: #331501;
+    display: grid;
+    gap: 15px;
+    row-gap: 30px;
+    text-align: center;
+    grid-template-columns: 2fr 2fr ;
+    
+
+}
+.formu input{
+    background-color:#a4600a;
+    border: none;
+    border-bottom: 3px solid #000000;
+
+}
+.formu input:focus{
+    border: none;
+    outline: none;
+}
